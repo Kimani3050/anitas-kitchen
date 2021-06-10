@@ -66,6 +66,10 @@ main {
 
 .middle {
     position: absolute;
+    top: 48vh;
+    transform: translate(50%, -50%);
+    color: rgb(246, 246, 246);
+    font-family: 'Bitter', serif;
 }
 
 #moto {
