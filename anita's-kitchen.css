@@ -1,0 +1,440 @@
+body {
+    background: white;
+}
+
+.primary-toggle {
+    box-shadow: rgb(255, 253, 253), 0 1px 0 #FFFFFF inset;
+    color: white;
+    cursor: pointer;
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 20px;
+    padding: 2px 10px;
+    position: absolute;
+    left: 150px;
+    text-shadow: 0 1px 0 #FFFFFF;
+    top: 170px;
+}
+
+a.primary-toggle span {
+    background: none repeat scroll 0 0 #fcfafa;
+    border-radius: 3px 3px 3px 3px;
+    box-shadow: 0 1px 0 #FFFFFF;
+    display: block;
+    height: 5px;
+    margin: 5px 0;
+    width: 50px;
+}
+
+a.primary-toggle .primary-toggle-opened {
+    display: none;
+}
+
+a.primary-toggle:hover {
+    box-shadow: 0 0 0 transparent, 0 1px 0 #FFFFFF inset;
+}
+
+a.primary-toggle:active {
+    box-shadow: 0 0 0 transparent, 0 -1px 0 rgb(255, 255, 255) inset;
+    text-shadow: 0 1px 0 rgb(255, 255, 255);
+}
+
+a.primary-toggle:focus {
+    box-shadow: 0 0 3px rgb(248, 248, 247);
+}
+
+a.primary-toggle:active span {
+    box-shadow: 0 1px 0 rgb(255, 255, 255);
+}
+
+.primary-nav-home {
+    display: block !important;
+}
+
+main {
+    min-height: 100vh;
+    background: url('./images/landing.jpg');
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: bottom;
+    background-attachment: fixed;
+}
+
+.middle {
+    position: absolute;
+}
+
+#moto {
+    font-style: initial;
+    font-size: 70px;
+    font-weight: normal;
+    color: white;
+    position: relative;
+    text-align: center;
+}
+
+.big-logo {
+    width: 350px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.food-section {
+    height: 200px;
+}
+
+.food-section img {
+    width: 100%;
+    height: 100%;
+    transition: all .5s ease;
+}
+
+.food-section img:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.food-section p {
+    position: absolute;
+    top: 52%;
+    left: 23%;
+    transform: translate(50%, -50%);
+    color: white;
+    font-size: 2em;
+    font-family: 'Bitter', serif;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.food-section title {
+    width: 100%;
+    height: 100px;
+    top: 50%;
+}
+
+.food-section h1 {
+    position: relative;
+    width: 50;
+    height: 50%;
+    background-color: lightgray;
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+    font-family: 'Bitter', serif;
+    padding: 50px;
+    margin: 0;
+}
+
+.food-section h2 {
+    position: relative;
+    width: 50;
+    height: 50%;
+    background-color: #fb5f05;
+    color: white;
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+    font-family: 'Bitter', serif;
+    padding: 50px;
+    background-size: cover;
+    margin: 0;
+}
+
+.fast-food {
+    margin: 200px;
+    text-align: center;
+}
+
+.fast-food img {
+    box-sizing: border-box;
+}
+
+.image-container {
+    padding: 20px;
+    box-shadow: 0px 0px 24px 2px rgba(0, 0, 0, 0.09);
+}
+
+.fast-food .content {
+    padding-left: 20px;
+}
+
+.fast-food .content h3 {
+    color: #3c4043;
+    font-size: 2.5rem;
+    font-family: 'Bitter', serif;
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+
+.fast-food .content h4 {
+    color: #3c4043;
+    font-family: 'Bitter', serif;
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+
+.fast-food .content p {
+    color: #80868b;
+}
+
+.fast-food .content .btn {
+    text-transform: uppercase;
+}
+
+.fast-food .content .btn img {
+    height: 18px;
+    width: 15px;
+    position: relative;
+    color: #fb5f05;
+    margin-bottom: 4px;
+}
+
+.drink {
+    margin: 200px;
+    text-align: center;
+}
+
+.drink img {
+    box-sizing: border-box;
+}
+
+.drink .cocktail {
+    padding-right: 20px;
+}
+
+.drink .cocktail h5 {
+    color: #3c4043;
+    font-size: 2.5rem;
+    font-family: 'Bitter', serif;
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+
+.drink .cocktail h6 {
+    color: #3c4043;
+    font-family: 'Bitter', serif;
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+
+.drink .cocktail p {
+    color: #80868b;
+}
+
+.drink .cocktail .btn {
+    text-transform: uppercase;
+}
+
+.drink .cocktail .btn img {
+    height: 18px;
+    width: 15px;
+    position: relative;
+    color: #fb5f05;
+    margin-bottom: 4px;
+}
+
+.tab-switch-bg {
+    /* min-height: 50vh; */
+    background: url(./images/foodsBg.jpg);
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: bottom;
+    background-attachment: scroll;
+    padding: 10vh 0;
+}
+
+.tab-switch .nav-tabs {
+    list-style-type: none;
+    overflow: hidden;
+}
+
+.nav-tabs .nav-item {
+    width: 25%;
+    background-color: #e1e1e1;
+    font-weight: bold;
+    font-family: 'Bitter', serif;
+    text-align: center;
+    letter-spacing: 1px;
+    border-right: 1px solid #5f6063;
+    border-left: 1px solid #5f6063;
+    border-bottom: none!important;
+}
+
+.nav-tabs .nav-item:first-child {
+    background-color: #FFFFFF;
+    border-left: none;
+}
+
+.nav-tabs .nav-item:last-child {
+    border-right: none;
+}
+
+.nav-tabs .nav-link {
+    color: #5f6063!important;
+}
+
+.nav-tabs .nav-item:first-child .nav-link {
+    color: #fb5f05!important;
+}
+
+.food-menu {
+    background-color: #FFFFFF;
+    position: relative;
+}
+
+.food-menu img {
+    width: 80%;
+    height: 250px;
+    padding: 20px;
+}
+
+.food-menu p {
+    color: #fb5f05;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: bold;
+}
+
+.food-menu .btn-left {
+    position: absolute;
+    top: 50%;
+    left: 0px;
+    z-index: 100;
+}
+
+.food-menu .btn-right {
+    position: absolute;
+    top: 50%;
+    right: 0px;
+    z-index: 100;
+}
+
+.food-menu .btn img {
+    height: 20px!important;
+    width: 20px!important;
+    position: relative;
+    color: #fb5f05;
+    padding: 0!important;
+}
+
+.details {
+    background-color: #FFFFFF;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 24px 2px rgba(0, 0, 0, 0.09);
+    margin: 100px;
+    padding: 30px;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.details .customers {
+    letter-spacing: 1px;
+}
+
+.details .customers h1 {
+    color: #fb5f05;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.details .customers h2 {
+    font-size: 20px;
+    font-weight: 550px;
+}
+
+.details .customers p {
+    font-weight: 590px;
+    font-size: 17px;
+}
+
+.details .about {
+    letter-spacing: 1px;
+}
+
+.details .about h3 {
+    color: #fb5f05;
+    font-size: 28px;
+    font-weight: bolder;
+}
+
+.details .about p {
+    font-weight: 610px;
+    font-size: 14px;
+}
+
+.details .btn img {
+    height: 20px!important;
+    width: 20px!important;
+    position: relative;
+    color: #fb5f05;
+    padding: 0!important;
+}
+
+.email {
+    min-height: 42vh;
+    background-image: url(./images/subscribe.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+    padding: 10vh 0;
+}
+
+.email h1 {
+    color: #FFFFFF;
+    font-size: 30px;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: bold;
+    padding-bottom: 50px;
+}
+
+.brand {
+    min-height: 20vh;
+    background-color: #fb5f05;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: bottom;
+    background-attachment: scroll;
+    padding: 10vh 0;
+}
+
+.brand .rights h1 {
+    color: #fff;
+    font-size: 35px;
+    font-family: 'Mate SC', serif;
+    font-weight: bold;
+}
+
+.brand .rights h2 {
+    color: #fff;
+    font-size: 22px;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: bold;
+    padding: 12px;
+    letter-spacing: 1px;
+}
+
+.brand .rights .socials img {
+    padding: 12px;
+    cursor: pointer;
+}
+
+.brand .rights h3 {
+    color: #fff;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 1px;
+    letter-spacing: 1px;
+    margin-top: 10px;
+}
