@@ -62,12 +62,16 @@ main {
     background-size: cover;
     background-position: bottom;
     background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 15vh;
 }
 
 .middle {
-    position: absolute;
+    /* position: absolute;
     top: 48vh;
-    transform: translate(50%, -50%);
+    transform: translate(50%, -50%); */
     color: rgb(246, 246, 246);
     font-family: 'Bitter', serif;
 }
